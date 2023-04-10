@@ -1,0 +1,240 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  body{
+    font-family: lato,sans-serif;
+  }
+  #page-wrap{
+    position:relative;
+  }
+  div{
+ 
+  }
+  #header{
+    width:70%;
+    position:fixed;
+    display: flex;
+    align-items: center;
+    top: 0px;
+    background-color: #eee;
+    padding: 0 20px;
+    min-height: 35px;
+  }
+  #header-img{
+    left:0;
+  }
+  #nav-bar{
+    display: flex;
+    width:30%;
+    min-width: 260px;
+    justify-content:         space-around;
+    align-items: center;
+    position:fixed;
+    right:10px;
+    background-color: #eee;
+    padding:8px;
+  }
+  .nav-link:hover{
+    color:darkorange;
+  }
+  .logo{
+    left:0;
+    width: 60vw;
+  }
+.logo img{
+    width: 100%;
+    max-width: 300px;
+    height: 100%;
+    left: 0;
+  }
+  img{
+    overflow-clip-margin: content-box;
+    overflow: clip;
+  }
+nav{
+  font-weight: 400;
+  display: block;
+}
+nav > ul{
+  width: 35vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+  #hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 250px;
+    width:100%;
+    margin-top: 50px;
+  }
+  #form{
+    display: block;
+  }
+  #hero h3{
+   margin: 15px 0; 
+  }
+  #hero input[type="submit"]{
+    width: 99%;
+    max-width: 150%;
+    background-color: #f1c40f;
+    border: 0;
+    border-radius:2px;
+    height: 35px;
+    
+    margin: 15px 0;
+  }
+  #hero .btn:hover{
+border: 2px solid black;
+  }
+  #hero input[type="email"]{
+    width: 99%;
+    max-width: 275%;
+    padding: 15px;
+  }
+  .container{
+    display: block;
+    align-items: center;
+    justify-content: center;
+  }
+  #features{
+    margin: 30px;
+   }
+  .grid{
+    display: flex;
+  }
+  #features .icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 125px;
+    width: 20vw;
+    color:darkorange;
+  }
+  #features .desc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 125px;
+    width: 80vw;
+    padding: 5px;
+  }
+#how_it_works{
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+}
+#how_it_works iframe{
+    width: 100%;
+    max-width: 560px;
+}
+#pricing{
+  margin-top: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.prduct{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 10px;
+  border:1px solid black;
+  border-radius: 3px;
+  width: calc(100%/3);
+}
+.level{
+  padding: 15px 0;
+  width: 100%;
+  text-transform: uppercase;
+  font-weight: 700;
+background:#ddd;
+}
+.prduct > button {
+  border: 0;
+  margin: 15px 0;
+  background-color: #f1c40f;
+  font-weight: 400;
+}
+.btn{
+  padding: 0 20px;
+  height: 40px;
+  font-size: 1em;
+  border-radius: 2px;
+  border-radius: 2px solid black;
+  text-transform: uppercase;
+  background: transparent;
+  cursor: pointer;
+}
+ol{
+  display: block;
+  list-style-type: decimal;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+  padding: 0;
+}
+.prduct ol{
+  margin: 15px 0;
+}
+li{
+  list-style: none;
+  display: list-item;
+}
+.prduct ol li{
+  padding: 5px 0;
+}
+h2{
+  display: block;
+  font-size: 1.5em;
+  margin-block-start: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+.prduct h2{
+  margin-top: 15px;
+}
+a{
+  text-decoration: none;
+  color: #000;
+}
+footer li{
+  padding: 0 10px;
+}
+ul{
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+footer ul{
+  display: flex;
+  justify-content: flex-end;
+}
+footer{
+  margin-top: 30px;
+  background-color: #ddd;
+  padding: 20px;
+}
+footer span{
+  display: flex;
+  justify-content: flex-end;
+  color: #444;
+  font-size: 0.9em;
+  margin-top: 5px;
+}
+@media(max-width:550px){
+  display: none;
+}
